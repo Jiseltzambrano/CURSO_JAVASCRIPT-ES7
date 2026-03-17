@@ -236,7 +236,7 @@ rl2.question("Ingresa un color: ", (color) => {//color es el valor ingresado por
 
 let i = 1;
 while (i <= 10) { // repite mientras se cumpla la condición i++ incrementa
-  console.log(`5 x ${i} = ${5 * i}`); 
+  console.log("5 x " + i + " = " + (5 * i));
   i++;
 } 
 
